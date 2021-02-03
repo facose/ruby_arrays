@@ -8,6 +8,8 @@ arry_greater_than_5 = numbers.select { |number| number > 5 }
 
 arry_smaller_than_5 = numbers.reject { |number| number > 5 }
 
+arry_sum_all = numbers.inject(:+)
+
 print arry_plus_1
 puts
 print arry_of_floats
@@ -15,3 +17,7 @@ puts
 print arry_greater_than_5
 puts 
 print arry_smaller_than_5
+puts 
+print arry_smaller_than_5.count
+puts
+print arry_sum_all
